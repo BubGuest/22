@@ -62,27 +62,17 @@ HTMLActuator.prototype.addTile = function (tile) {
   // We can't use classlist because it somehow glitches when replacing classes
   var classes = ["tile", "tile-" + tile.value, positionClass];
 
-  if (tile.value > 999999999999999999999999999999) classes.push("tile-super");
+  if (tile.value > 999999999999999999999999999999999999999999999) classes.push("tile-super");
 
   this.applyClasses(wrapper, classes);
 
   inner.classList.add("tile-inner");
   inner.textContent = tile.value;
-  if (tile.value === -10) inner.textContent = "x x x";
-  if (tile.value === -11) inner.textContent = "↷";
-  if (tile.value === -15) inner.textContent = "∞";
-  if (tile.value === -16) inner.textContent = 372154431722859;
-  if (tile.value === -19) inner.textContent = "oOo";
-  if (tile.value === -20) inner.textContent = "½";
-  if (tile.value === -22) inner.textContent = "⍁";
-  if (tile.value === -23) inner.textContent = "⍂";
-  if (tile.value === -24) inner.textContent = "⌷";
-  if (tile.value === -25) inner.textContent = "THE";
-  if (tile.value === -26) inner.textContent = "ALT";
-  if (tile.value === -27) inner.textContent = -6;
-  if (tile.value === -32) inner.textContent = "⊙";
-  if (tile.value === -33) inner.textContent = "⊏";
-  if (tile.value === -35) inner.textContent = "ED";
+  if (tile.value === 30) inner.textContent = "-0"
+  if (tile.value === 31) inner.textContent = "?"
+  if (tile.value === -31) inner.textContent = "-?"
+  if (tile.value === 32) inner.textContent = "2¦2"
+  if (tile.value === -32) inner.textContent = "-2¦2"
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
@@ -134,7 +124,7 @@ HTMLActuator.prototype.updateScore = function (score) {
   if (difference > 0) {
     var addition = document.createElement("div");
     addition.classList.add("score-addition");
-    addition.textContent = "" + "";
+    addition.textContent = "+" + difference;
 
     this.scoreContainer.appendChild(addition);
   }
@@ -146,7 +136,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "20!" : "21 22 23";
+  var message = won ? "You beat 22!" : "You failed 22!";
 
   if (typeof ga !== "undefined") {
     ga("send", "event", "game", "end", type, this.score);
@@ -170,11 +160,11 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   var tweet = document.createElement("a");
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
-  tweet.setAttribute("data-via", "herdnaxy");
+  tweet.setAttribute("data-via", "22");
   tweet.textContent = "Tweet";
 
-  var text = "I scored " + this.score + " points at 2048, a game where you " +
-             "join numbers to score high! #2048game";
+  var text = "I spawned " + this.score + " this many tiles on 22, a game where you " +
+             "merge tiles to get 22s! #advyout";
   tweet.setAttribute("data-text", text);
 
   return tweet;
