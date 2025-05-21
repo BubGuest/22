@@ -59,16 +59,11 @@ GameManager.prototype.addStartTiles = function () {
 // Adds a tile in a random position
 GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
-    var value = Math.random() < 0.999999999 ? Math.random() < 0.99999999878048780487804878 ? Math.random() < 0.999999998046875 ? Math.random() < 0.9999999975 ? Math.random() < 0.999999996875 ? Math.random() < 0.99999999609375 ? Math.random() < 0.999999995 ? Math.random() < 0.99999999375 ? Math.random() < 0.9999999921875 ? Math.random() < 0.99999999 ? Math.random() < 0.9999999878048780487804878 ? Math.random() < 0.99999998 ? Math.random() < 0.99999996428571428571428571 ? Math.random() < 0.9999999615384615384615384 ? Math.random() < 0.99999996 ? Math.random() < 0.999999958333333333333333333 ? Math.random() < 0.9999999565217391304347826 ? Math.random() < 0.9999999545454545454545454 ? Math.random() < 0.9999999523809523809523809 ? Math.random() < 0.99999995 ? Math.random() < 0.9999999375 ? Math.random() < 0.9999999 ? Math.random() < 0.99999984375 ? Math.random() < 0.9999996875 ? Math.random() < 0.999999375 ? Math.random() < 0.999999 ? Math.random() < 0.99999875 ? Math.random() < 0.999998046875 ? Math.random() < 0.9999975 ? Math.random() < 0.999996875 ? Math.random() < 0.99999609375 ? Math.random() < 0.999995 ? Math.random() < 0.9999921875 ? Math.random() < 0.9999875 ? Math.random() < 0.99996875 ? Math.random() < 0.9999375 ? Math.random() < 0.999875 ? Math.random() < 0.9996875 ? Math.random() < 0.99875 ? Math.random() < 0.00001 ? 0 : 1 : 2 : 3 : 4 : 5 : 6 : 7 : 8 : 9 : 10 : 11 : 12 : 13 : 14 : Math.random() < 0.9333333333333333333 ? Math.random() < 0.9285714285714285714 ? Math.random() < 0.9230769230769230769 ? Math.random() < 0.91666666666666666666 ? Math.random() < 0.9090909090909090909 ? Math.random() < 0.9 ? Math.random() < 0.888888888888888888 ? Math.random() < 0.875 ? Math.random() < 0.857142857142857142 ? Math.random() < 0.8333333333333333333 ? Math.random() < 0.8 ? Math.random() < 0.75 ? Math.random() < 0.666666666666666666 ? Math.random() < 0.5 ? -10 : -11 : -15 : -16 : -19 : -20 : -22 : -23 : -24 : -25 : -26 : -27 : -32 : -33 : -35 : 15 : 16 : 17 : 18 : 19 : 20 : 21 : 22 : 23 : 81 : 82 : 83 : 84 : 24 : 8282 : 25 : 26 : 27 : 28 : 29 : 30 : 31 : 32 : 828282 : 33;
+    var value = Math.random() < 0.99999999 ? Math.random() < 0.99999998 ? Math.random() < 0.99999996 ? Math.random() < 0.9999999545454545454545454 ? Math.random() < 0.99999995 ? Math.random() < 0.9999999375 ? Math.random() < 0.9999999 ? Math.random() < 0.9999998 ? Math.random() < 0.999999 ? Math.random() < 0.999998 ? Math.random() < 0.999996 ? Math.random() < 0.999992 ? Math.random() < 0.99999 ? Math.random() < 0.9999894736842105263157 ? Math.random() < 0.9999875 ? Math.random() < 0.9999857142857142857142 ? Math.random() < 0.999984 ? Math.random() < 0.99998 ? Math.random() < 0.999975 ? Math.random() < 0.99997 ? Math.random() < 0.9999666666666666666666 ? Math.random() < 0.999958333333333333333333 ? Math.random() < 0.9999473684210526315789 ? Math.random() < 0.9999285714285714285714 ? Math.random() < 0.9999 ? Math.random() < 0.999875 ? Math.random() < 0.9998 ? Math.random() < 0.9995 ? Math.random() < 0.99875 ? 1 : Math.random() < 0.999 ? 2 : -2 : Math.random() < 0.999 ? 3 : -3 : Math.random() < 0.999 ? 4 : -4 : Math.random() < 0.999 ? 5 : -5 : Math.random() < 0.999 ? 6 : -6 : Math.random() < 0.999 ? 7 : -7 : Math.random() < 0.999 ? 8 : -8 : Math.random() < 0.999 ? 9 : -9 : Math.random() < 0.999 ? 10 : -10 : Math.random() < 0.999 ? 11 : -11 : Math.random() < 0.999 ? 12 : -12 : Math.random() < 0.999 ? 13 : -13 : Math.random() < 0.999 ? 14 : -14 : Math.random() < 0.999 ? 15 : -15 : Math.random() < 0.999 ? 16 : -16 : Math.random() < 0.999 ? 17 : -17 : Math.random() < 0.999 ? 18 : -18 : Math.random() < 0.999 ? 19 : -19 : Math.random() < 0.999 ? 20 : -20 : Math.random() < 0.999 ? 21 : -21 : Math.random() < 0.999 ? 22 : -22 : Math.random() < 0.999 ? 23 : -23 : Math.random() < 0.999 ? 24 : -24 : Math.random() < 0.999 ? 31 : -31 : Math.random() < 0.999 ? 0 : 30 : Math.random() < 0.999 ? 32 : -32 : Math.random() < 0.999 ? 82 : -82 : Math.random() < 0.999 ? 25 : -25 : Math.random() < 0.999 ? 26 : -26; 
     var tile = new Tile(this.grid.randomAvailableCell(), value);
-
+    
     this.grid.insertTile(tile);
     this.score += 1;
-    if (tile.value === 20) this.won = true;
-    if (tile.value === 21) this.over = true;
-    if (tile.value === 22) this.over = true;
-    if (tile.value === 23) this.over = true;
-    if (tile.value === 33) this.won = true;
   }
 };
 
@@ -142,8 +137,9 @@ GameManager.prototype.move = function (direction) {
           // Converge the two tiles' positions
           tile.updatePosition(positions.next);
           
-          // The mighty 20 tile
-          if (merged.value === 20) self.won = true;
+          // The mighty 22 tile
+          if (merged.value === 22) self.won = true;
+          if (merged.value === 32) self.over = true;
         } else {
           self.moveTile(tile, positions.farthest);
         }
@@ -246,4 +242,5 @@ GameManager.prototype.tileMatchesAvailable = function () {
 GameManager.prototype.positionsEqual = function (first, second) {
   return first.x === second.x && first.y === second.y;
 };
+
 
