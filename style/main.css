@@ -2,9 +2,9 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #daede5;
-  color: #352e2f;
-  font-family: "Palatino Linotype";
+  background: #dcf4ff;
+  color: #151407;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
 body {
@@ -56,7 +56,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #87a8a6;
+  background: #bbada0;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -152,7 +152,7 @@ hr {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  background: #87a8a6;
+  background: #660000;
   border-radius: 6px;
   width: 492px;
   height: 492px;
@@ -223,7 +223,7 @@ hr {
   margin-right: 6.7px;
   float: left;
   border-radius: 3px;
-  background: rgba(238, 228, 218, 0.35); }
+  background: #004a46; }
   .grid-cell:last-child {
     margin-right: 0; }
 
@@ -502,197 +502,201 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    color: #51008d;
-    background: #88fef9;
+    background: #ffffff;
+    color: #f9f6f2;
     text-align: center;
-    font-weight: lighter;
+    font-weight: 500;
     z-index: 10;
     font-size: 30px; }
-  .tile.tile-2000 .tile-inner {
-    background: #eee4da;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-  .tile.tile-4000 .tile-inner {
-    background: #ede0c8;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-0 .tile-inner {
-    color: #f9f6f2;
-    background: #002120; }
+    color: #222222;
+    background: #ff8800; }
   .tile.tile-1 .tile-inner {
-    color: #f9f6f2;
-    background: #51d33b; }
+    color: #222222;
+    background: #a5fa9e; }
   .tile.tile-2 .tile-inner {
-    color: #f9f6f2;
-    background: #3bd3ae; }
+    color: #222222;
+    background: #faf89e; }
   .tile.tile-3 .tile-inner {
-    color: #f9f6f2;
-    background: #3b69d3; }
+    color: #222222;
+    background: #fa9e9e; }
   .tile.tile-4 .tile-inner {
-    color: #f9f6f2;
-    background: #8e3bd3; }
+    color: #222222;
+    background: #f39efa; }
   .tile.tile-5 .tile-inner {
-    color: #f9f6f2;
-    background: #d33b99; }
+    color: #222222;
+    background: #9ea5fa; }
   .tile.tile-6 .tile-inner {
-    color: #f9f6f2;
-    background: #d3473b; }
+    color: #222222;
+    background: #9efaf4; }
   .tile.tile-7 .tile-inner {
-    color: #f9f6f2;
-    background: #d3cc3b; }
+    color: #222222;
+    background: #54ff40; }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #7ca76f; }
+    color: #222222;
+    background: #fcff40; }
   .tile.tile-9 .tile-inner {
-    color: #f9f6f2;
-    background: #6fa79a; }
+    color: #222222;
+    background: #ff4040; }
   .tile.tile-10 .tile-inner {
-    color: #f9f6f2;
-    background: #6f7da7; }
+    color: #222222;
+    background: #f140ff; }
   .tile.tile-11 .tile-inner {
-    color: #f9f6f2;
-    background: #956fa7; }
+    color: #222222;
+    background: #4057ff; }
   .tile.tile-12 .tile-inner {
-    color: #f9f6f2;
-    background: #a76f86; }
+    color: #222222;
+    background: #40fff6; }
   .tile.tile-13 .tile-inner {
-    color: #f9f6f2;
-    background: #aeac77; }
+    color: #222222;
+    background: #579103; }
   .tile.tile-14 .tile-inner {
-    color: #f9f6f2;
-    background: #2b5d21; }
+    color: #222222;
+    background: #914803; }
   .tile.tile-15 .tile-inner {
-    color: #f9f6f2;
-    background: #215d44; }
+    color: #222222;
+    background: #91035b; }
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
-    background: #21355d; }
+    color: #222222;
+    background: #4e0391; }
   .tile.tile-17 .tile-inner {
-    color: #f9f6f2;
-    background: #43215d; }
+    color: #222222;
+    background: #034e91; }
   .tile.tile-18 .tile-inner {
-    color: #f9f6f2;
-    background: #5d2142; }
+    color: #222222;
+    background: #03913b; }
   .tile.tile-19 .tile-inner {
-    color: #f9f6f2;
-    background: #5d2e21; }
+    color: #222222;
+    background: #ffffff; }
   .tile.tile-20 .tile-inner {
-    color: #c71500;
-    background: #a99f00;
-    background-image: radial-gradient(#f9f6f2, transparent); }
+    color: #222222;
+    background: #000000; }
   .tile.tile-21 .tile-inner {
-    color: #201915;
-    background: #ff9a9a; }
+    color: #fffd76;
+    background: #ffc100; }
   .tile.tile-22 .tile-inner {
-    color: #201915;
-    background: #9aff9c; }
+    color: #fffd76;
+    background: #ff006c; }
   .tile.tile-23 .tile-inner {
-    color: #201915;
-    background: #9a9fff; }
+    color: #660000;
+    background: #004a46; }
   .tile.tile-24 .tile-inner {
-    color: #302093;
-    background: #d4cdff; }
+    color: #004a46;
+    background: #660000; }
   .tile.tile-25 .tile-inner {
-    color: #80e615;
-    background: #5d6e4b; }
+    color: #3976dd;
+    background: #efd35a;
+    box-shadow: 0 0 3px 3px #ffe380, inset 0 0 0 3px #16deb5;
+    background-image: radial-gradient(transparent, #79d4a6); }
   .tile.tile-26 .tile-inner {
-    color: #ff1eb4;
-    background: #86376c; }
-  .tile.tile-27 .tile-inner {
-    color: #041a14;
-    background: #53e9c0; }
-  .tile.tile-28 .tile-inner {
-    color: #e6ad61;
-    background: #895e25; }
-  .tile.tile-29 .tile-inner {
-    color: #c7e3c7;
-    background: #49a749; }
-  .tile.tile-30 .tile-inner {
-    color: #cf9fff;
-    background: #7b32c4; }
+    color: #b3ef56;
+    background: #ffffff;
+    background-image: url('https://bubguest.github.io/22/26tile.jpg'); 
+    background-size: 100% auto; }
   .tile.tile-31 .tile-inner {
-    color: #98d5f5;
-    background: #1b6993; }
+    color: #f9f5fb;
+    background: #a65fd8; }
   .tile.tile-32 .tile-inner {
-    color: #73001a;
-    background: #d65270; }
-  .tile.tile-33 .tile-inner {
-    color: #d6d97d;
-    background: #9cef15; }
-  .tile.tile-81 .tile-inner {
-    color: #8af334;
-    background: #14195e; }
+    color: #fffd76;
+    background: #ff006c; }
   .tile.tile-82 .tile-inner {
-    color: #eee1d6;
-    background: #ae9077; }
-  .tile.tile-83 .tile-inner {
-    color: #e8e25c;
-    background: #42ab68; }
-  .tile.tile-84 .tile-inner {
-    color: #38952d;
-    background: #c5c386; }
-  .tile.tile-8282 .tile-inner {
-    color: #ae9077;
-    background: #eee1d6;
-    font-size: 22px; }
-  .tile.tile-828282 .tile-inner {
-    color: #c7a990;
-    background: #876f5c;
-    font-size: 14px; }
+    color: #d6c1ac;
+    background: #b48c72; }
+  .tile.tile-30 .tile-inner {
+    color: #222222;
+    background: #ff8800; }
+  .tile.tile--1 .tile-inner {
+    color: #222222;
+    background: #a5fa9e; }
+  .tile.tile--2 .tile-inner {
+    color: #222222;
+    background: #faf89e; }
+  .tile.tile--3 .tile-inner {
+    color: #222222;
+    background: #fa9e9e; }
+  .tile.tile--4 .tile-inner {
+    color: #222222;
+    background: #f39efa; }
+  .tile.tile--5 .tile-inner {
+    color: #222222;
+    background: #9ea5fa; }
+  .tile.tile--6 .tile-inner {
+    color: #222222;
+    background: #9efaf4; }
+  .tile.tile--7 .tile-inner {
+    color: #222222;
+    background: #54ff40; }
+  .tile.tile--8 .tile-inner {
+    color: #222222;
+    background: #fcff40; }
+  .tile.tile--9 .tile-inner {
+    color: #222222;
+    background: #ff4040; }
   .tile.tile--10 .tile-inner {
-    color: #8b8b8b;
-    background: #eff6f7;
-    font-size: 12px; }
+    color: #222222;
+    background: #f140ff; }
   .tile.tile--11 .tile-inner {
-    color: #8b8b8b;
-    background: #eff6f7; }
+    color: #222222;
+    background: #4057ff; }
+  .tile.tile--12 .tile-inner {
+    color: #222222;
+    background: #40fff6; }
+  .tile.tile--13 .tile-inner {
+    color: #222222;
+    background: #579103; }
+  .tile.tile--14 .tile-inner {
+    color: #222222;
+    background: #914803; }
   .tile.tile--15 .tile-inner {
-    color: #8b8b8b;
-    background: #eff6f7; }
+    color: #222222;
+    background: #91035b; }
   .tile.tile--16 .tile-inner {
-    color: #8b8b8b;
-    background: #eff6f7;
-    font-size: 6.6px; }
+    color: #222222;
+    background: #4e0391; }
+  .tile.tile--17 .tile-inner {
+    color: #222222;
+    background: #034e91; }
+  .tile.tile--18 .tile-inner {
+    color: #222222;
+    background: #03913b; }
   .tile.tile--19 .tile-inner {
-    color: #8b8b8b;
-    background: #eff6f7;
-    font-size: 19px; }
+    color: #222222;
+    background: #ffffff; }
   .tile.tile--20 .tile-inner {
-    color: #8b8b8b;
-    background: #eff6f7; }
+    color: #222222;
+    background: #000000; }
+  .tile.tile--21 .tile-inner {
+    color: #fffd76;
+    background: #ffc100; }
   .tile.tile--22 .tile-inner {
-    color: #8b8b8b;
-    background: #eff6f7; }
+    color: #fffd76;
+    background: #ff006c; }
   .tile.tile--23 .tile-inner {
-    color: #8b8b8b;
-    background: #eff6f7; }
+    color: #660000;
+    background: #004a46; }
   .tile.tile--24 .tile-inner {
-    color: #8b8b8b;
-    background: #eff6f7; }
+    color: #004a46;
+    background: #660000; }
   .tile.tile--25 .tile-inner {
-    color: #8b8b8b;
-    background: #eff6f7;
-    font-size: 20px; }
+    color: #3976dd;
+    background: #efd35a;
+    box-shadow: 0 0 3px 3px #ffe380, inset 0 0 0 3px #16deb5;
+    background-image: radial-gradient(transparent, #79d4a6); }
   .tile.tile--26 .tile-inner {
-    color: #8b8b8b;
-    background: #eff6f7;
-    font-size: 20px; }
-  .tile.tile--27 .tile-inner {
-    color: #8b8b8b;
-    background: #eff6f7; }
+    color: #b3ef56;
+    background: #ffffff;
+    background-image: url('https://bubguest.github.io/22/26tile.jpg'); 
+    background-size: 100% auto; }
+  .tile.tile--31 .tile-inner {
+    color: #f9f5fb;
+    background: #a65fd8; }
   .tile.tile--32 .tile-inner {
-    color: #8b8b8b;
-    background: #eff6f7; }
-  .tile.tile--33 .tile-inner {
-    color: #8b8b8b;
-    background: #eff6f7; }
-  .tile.tile--35 .tile-inner {
-    color: #8b8b8b;
-    background: #eff6f7;
-    font-size: 25px; }
-  .tile.tile-super .tile-inner {
-    color: #f9f6f2;
-    background: #000000;
-    font-size: 1px; }
-
+    color: #fffd76;
+    background: #ff006c;
+    font-size: 26px; }
+  .tile.tile--82 .tile-inner {
+    color: #d6c1ac;
+    background: #b48c72; }
 @-webkit-keyframes appear {
   0% {
     opacity: 0;
