@@ -1,3 +1,3 @@
 # 22
 
-Get a 22.
+Get two 22s.
